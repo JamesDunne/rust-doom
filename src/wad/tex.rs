@@ -150,7 +150,7 @@ impl TextureDirectory {
         let mut palette_tex = Texture::new(gl::TEXTURE_2D);
         palette_tex.bind(gl::TEXTURE0);
         palette_tex
-            .set_filters_nearest()
+            .set_filters_linear()
             .data_rgb_u8(0, 256, num_colormaps, data[])
             .unbind(gl::TEXTURE0);
         palette_tex
