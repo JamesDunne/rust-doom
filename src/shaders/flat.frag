@@ -1,6 +1,4 @@
-#version 300 es
-precision mediump float;
-
+#version 330 core
 out vec3 color;
 
 uniform sampler2D u_palette;
