@@ -11,6 +11,8 @@
 /target/
 Cargo.lock
 
+.DS_Store
+doom.wad
 doom1.wad
 doom2.wad
 *.swp
